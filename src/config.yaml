@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Solution on Cloud Co.,Ltd.
+  site: 'https://solutionon.cloud'
   base: '/'
   trailingSlash: false
 
