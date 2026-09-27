@@ -1,5 +1,5 @@
 site:
-  name: Solution on Cloud Co.,Ltd.
+  name: Solution on Cloud
   site: 'https://solutionon.cloud'
   base: '/'
   trailingSlash: false
