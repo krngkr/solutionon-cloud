@@ -7,6 +7,11 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
 
 <form>
   {
+    <!-- 1. แก้ไขแท็ก form เพิ่ม action และ method -->
+    <form action="https://web3forms.com" method="POST">
+    <!-- 2. เพิ่มบรรทัดนี้ลงไปใต้แท็ก form และแทนที่รหัสสีแดงด้วย Access Key ของคุณ -->
+    <input type="hidden" name="access_key" value="d07f3ca3-e454-4dbe-a6ba-94ab9dbc2ae2">
+
     inputs &&
       inputs.map(
         ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '' }) =>
