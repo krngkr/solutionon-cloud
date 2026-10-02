@@ -8,9 +8,9 @@ site:
 
 # Default SEO metadata
 metadata:
-  title: Solution on Cloud
-    default: 'Solution on Cloud'
-    template: '%s — Solution on Cloud'
+  title:
+    default: AstroWind
+    template: '%s — AstroWind'
   description: "\U000026C5 Any problem, Any service, Any solution, Any cloud."
   robots:
     index: true
