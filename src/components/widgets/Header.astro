@@ -238,6 +238,10 @@ const persistKey = `header-${Array.from(
 
       // Close the mobile menu when a nav link is clicked.
       nav?.addEventListener('click', closeMenu);
+      // ปุ่ม action (Contact) อยู่นอก <nav> ต้องปิดเมนูด้วยเมื่อกดลิงก์ในกล่องนี้
+      lastChild?.addEventListener('click', (e) => {
+        if ((e.target as HTMLElement)?.closest('a')) closeMenu();
+      });
 
       // Desktop dropdowns open on hover/`:focus-within`. When a dropdown link is
       // clicked it keeps focus, and because the header uses `transition:persist`
